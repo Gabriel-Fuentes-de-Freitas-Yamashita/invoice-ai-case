@@ -2,23 +2,6 @@
 
 Solução Full Stack que utiliza Inteligência Artificial para extrair dados de documentos (OCR) e permitir que os utilizadores conversem com o conteúdo extraído via Chat Interativo.
 
----
-
-## 📸 Visão Geral do Projeto
-
-### 1. Autenticação Segura
-Sistema completo de registo e login com proteção de rotas.  
-**(Coloque aqui o print do ecrã de login)**
-
-### 2. Dashboard Intuitivo
-Gira os seus documentos com uma interface limpa e Dark Mode.  
-**(Coloque aqui o print da Home)**
-
-### 3. Análise Inteligente (OCR + IA)
-Visualize a fatura original, o texto extraído e use a IA para tirar dúvidas.  
-**(Coloque aqui o print do ecrã dividido: Imagem vs Chat)**
-
----
 
 ## 🚀 Funcionalidades
 
