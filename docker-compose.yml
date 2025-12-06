@@ -1,0 +1,31 @@
+version: '3.8'
+
+services:
+  # Serviço do Banco de Dados PostgreSQL
+  postgres:
+    image: postgres:15-alpine
+    container_name: invoice_app_db
+    restart: always
+    ports:
+      - '5432:5432'
+    environment:
+      POSTGRES_USER: admin
+      POSTGRES_PASSWORD: password123
+      POSTGRES_DB: invoice_db
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+
+  # (Opcional) Interface visual para ver o banco (tipo PhpMyAdmin, mas para Postgres)
+  pgadmin:
+    image: dpage/pgadmin4
+    container_name: pgadmin_dashboard
+    environment:
+      PGADMIN_DEFAULT_EMAIL: admin@admin.com
+      PGADMIN_DEFAULT_PASSWORD: root
+    ports:
+      - "5050:80"
+    depends_on:
+      - postgres
+
+volumes:
+  postgres_data:
