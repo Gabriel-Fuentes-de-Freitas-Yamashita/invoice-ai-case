@@ -7,16 +7,19 @@ Solução Full Stack que utiliza Inteligência Artificial para extrair dados de 
 ## 📸 Visão Geral do Projeto
 
 ### 1. Autenticação Segura
-Sistema completo de registo e login com proteção de rotas.  
-**(Coloque aqui o print do ecrã de login)**
+Sistema completo de registo e login.  
+<img width="1257" height="907" alt="Captura de tela 2025-12-05 210329" src="https://github.com/user-attachments/assets/400e2822-1f15-4c96-ada6-ccb0ce75fa69" />
 
 ### 2. Dashboard Intuitivo
-Gira os seus documentos com uma interface limpa e Dark Mode.  
-**(Coloque aqui o print da Home)**
+Gira os seus documentos com uma interface limpa.  
+<img width="1190" height="678" alt="Captura de tela 2025-12-05 211551" src="https://github.com/user-attachments/assets/a954a4f1-2592-4096-8c51-536f0a7e2af6" />
+ 
+<img width="1133" height="753" alt="Captura de tela 2025-12-05 210656" src="https://github.com/user-attachments/assets/ac35d801-3021-4e7b-b0d8-64c140ffcbf2" />
 
 ### 3. Análise Inteligente (OCR + IA)
 Visualize a fatura original, o texto extraído e use a IA para tirar dúvidas.  
-**(Coloque aqui o print do ecrã dividido: Imagem vs Chat)**
+
+<img width="1863" height="918" alt="Captura de tela 2025-12-05 211925" src="https://github.com/user-attachments/assets/75935bbb-b3f1-4a7a-94dd-024fb59b8efb" />
 
 ---
 
